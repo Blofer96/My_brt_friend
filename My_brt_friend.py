@@ -10,7 +10,7 @@ class driger_bf:
       me.list1 = []
 
     def wordlist(me):
-        path = r"E:\HuckerU cyber\Python\My_brt_friend\My_brt_friend\rockyou.txt"
+        path = r"put here your passwords file"
         file = open(path, "r")
         for line in file:
             line = line.replace("\n", "")
